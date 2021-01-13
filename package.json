@@ -2,7 +2,7 @@
   "name": "easy-google-oauth",
   "version": "1.0.0",
   "description": "Easy Google OAuth 2.0 Sign In and Sign Out",
-  "main": "./lib/GoogleOAuth.js",
+  "main": "./src/GoogleOAuth.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack"
