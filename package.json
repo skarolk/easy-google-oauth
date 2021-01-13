@@ -1,6 +1,6 @@
 {
   "name": "easy-google-oauth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy Google OAuth 2.0 Sign In and Sign Out",
   "main": "./src/GoogleOAuth.js",
   "license": "MIT",
