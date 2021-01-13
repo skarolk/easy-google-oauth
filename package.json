@@ -7,6 +7,10 @@
   "scripts": {
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skarolk/easy-google-oauth"
+  },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.0.0",
