@@ -1,0 +1,35 @@
+/* Google OAuth Hooks Button */
+.button {
+    display: block;
+    font-size: 1.3em;
+    box-sizing: content-box;
+    margin: 20px auto 0;
+    width: 70%;
+    padding: 15px 20px;
+    border-radius: 24px;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: 0 16px 60px rgba(78, 79, 114, 0.08);
+    position: relative;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    background-color: azure;
+}
+
+.buttonText {
+    color: #4285f4;
+    font-weight: bolder;
+}
+
+.icon {
+    height: 100%;
+    margin-top: -1rem;
+    position: absolute;
+    left: 30px;
+    align-items: center;
+}
