@@ -14,3 +14,36 @@ In your terminal run ```npm i easy-google-oauth --legacy-peer-deps```
 
 # 1) Google OAuth 2.0 requires a clientId
 
+Enter the Google developer console and click credentials:
+<img src="https://i.imgur.com/ohG9suN.png" />
+
+Click ```CREATE CREDENTIALS``` > ```OAuth client ID```
+<img src="https://i.imgur.com/UWBzFPg.png" />
+
+Follow the steps to create your clientId.
+
+# 2) To use the component
+
+```import GoogleOAuth from "easy-google-oauth";```
+
+```<GoogleOAuth clientId={<yourClientId>} />```
+
+# 3) Handling login
+
+The GoogleOAuth component takes a function as a prop to handle both login success and failure:
+
+```googleLoginSuccess={googleLoginSuccess}```
+```googleLoginFailure={googleLoginFailure}```
+
+# 4) Handling logout
+
+The GoogleOAuth component takes a function as a prop to handle both logout success and failure:
+
+```googleLogoutSuccess={googleLogoutSuccess}```
+```googleLogoutFailure={googleLogoutFailure}```
+
+# 5) Setting logout timer
+
+The GoogleOAuth component takes an integer as a prop to set the number of hours before a users session times out:
+
+```expirationHourMultiplier={<numberOfHours>}```
