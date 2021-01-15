@@ -1,4 +1,4 @@
-# easy-google-oauth v. 1.0.8
+# easy-google-oauth v. 1.0.9
 Easy integration of Google OAuth 2.0 for React projects.
 
 ### This package will allow you to quickly add a sign in and sign out component to your app for front end authentication using Google OAuth 2.0.

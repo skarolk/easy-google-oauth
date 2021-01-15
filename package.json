@@ -1,6 +1,6 @@
 {
   "name": "easy-google-oauth",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Easy Google OAuth 2.0 Sign In and Sign Out",
   "main": "./lib/GoogleOAuth.js",
   "license": "MIT",
@@ -11,6 +11,15 @@
     "type": "git",
     "url": "https://github.com/skarolk/easy-google-oauth.git"
   },
+  "keywords": [
+    "google",
+    "oauth",
+    "oauth2.0",
+    "googleoauth",
+    "googleoauth2.0",
+    "auth",
+    "authentication"
+  ],
   "peerDependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
